@@ -1,0 +1,16 @@
+
+mi_numero = 0
+
+while mi_numero < 15:
+    if mi_numero % 2 == 0:
+        mi_numero += 1
+        continue
+    elif mi_numero == 11:
+        print("11 - break!!!")
+        break
+    else:
+        print("mi_numero es menor a 15 y vale: ", mi_numero)
+        mi_numero += 1   
+else: #opcional
+    print("La condicion evalua false")
+print("fuera del bucle")
