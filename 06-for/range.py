@@ -12,3 +12,6 @@ print("Fin")
 for nro in range(0,11,2):
         print(nro, end=" ")
 print("Fin")     
+
+
+
